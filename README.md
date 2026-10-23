@@ -1,16 +1,22 @@
-# React + Vite
+# SapphireIQ Weather Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my weather project made with React and Vite. You can search for
+a city and it shows the current temperature, humidity and wind speed
+using the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+## Running it
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Download or clone this repo
+2. Run npm install
+3. Make a .env file and add VITE_WEATHER_API_KEY=your_key
+4. Run npm run dev
+5. Open http://localhost:5173
 
-## React Compiler
+## What I used
+- React
+- Vite
+- OpenWeatherMap API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Notes
+The API key is not uploaded for safety, so you need your own free key
+to run it locally.
